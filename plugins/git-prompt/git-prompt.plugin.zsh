@@ -89,4 +89,3 @@ ZSH_THEME_GIT_PROMPT_UNTRACKED="%{…%G%}"
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg_bold[green]%}%{✔%G%}"
 
 # Set the prompt.
-RPROMPT='$(git_super_status)'
