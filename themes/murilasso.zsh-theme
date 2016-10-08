@@ -14,7 +14,7 @@
 #ZSH_THEME_GIT_PROMPT_CLEAN=" %{$fg[green]%}✔%{$reset_color%}"
 
 # PROMPT with git status
-source ~/.zplugins/zsh-git-prompt/zshrc.sh
+#source ~/.zplugins/zsh-git-prompt/zshrc.sh
 PS1=''
 case ${TERM} in
   xterm*|rxvt*|Eterm|aterm|kterm|gnome*)
