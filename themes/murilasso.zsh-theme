@@ -17,7 +17,7 @@
 #source ~/.zplugins/zsh-git-prompt/zshrc.sh
 PS1=''
 case ${TERM} in
-  xterm*|rxvt*|Eterm|aterm|kterm|gnome*)
+  xterm*|rxvt*|screen*|Eterm|aterm|kterm|gnome*)
     PS1=$'%{\e[1;34m%}%n %{\e[0m%}at %{\e[0;33m%}%M %{\e[0m%}in %{\e[1;32m%}%~ %b$(git_super_status)
 %{\e[1;36m%}($[HISTCMD-1])%{\e[0m%}%{\e[1;30m%}>>> %{\e[0m%}'
     ;;
